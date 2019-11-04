@@ -1,14 +1,13 @@
 package eu.teama.drdaycare.Prescription;
 import eu.teama.drdaycare.DatabaseHandler.DatabaseController;
-import eu.teama.drdaycare.Login.jsonData.PrescriptionRequest;
-import eu.teama.drdaycare.Login.jsonData.PrescriptionResponse;
+import eu.teama.drdaycare.Prescription.jsonData.PrescriptionRequest;
+import eu.teama.drdaycare.Prescription.jsonData.PrescriptionResponse;
 import eu.teama.drdaycare.UserTypes.Prescription;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.sql.SQLException;
 @Service
 
 public class PrescriptionManager {

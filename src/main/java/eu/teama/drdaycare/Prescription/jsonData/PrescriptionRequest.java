@@ -1,4 +1,4 @@
-package eu.teama.drdaycare.Login.jsonData;
+package eu.teama.drdaycare.Prescription.jsonData;
 
 public class PrescriptionRequest {
     private final Integer prescriptionid;

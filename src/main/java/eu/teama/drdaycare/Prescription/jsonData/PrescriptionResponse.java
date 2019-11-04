@@ -1,4 +1,4 @@
-package eu.teama.drdaycare.Login.jsonData;
+package eu.teama.drdaycare.Prescription.jsonData;
 
 import eu.teama.drdaycare.UserTypes.Prescription;
 
