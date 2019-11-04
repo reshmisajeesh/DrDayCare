@@ -22,7 +22,7 @@ public class PrescriptionManager {
         Iterable<Prescription> allPrescriptions = databaseController.getAllPrescriptions();
 
         for (Prescription prescription: allPrescriptions){
-            if (prescriptionRequest.getPrescriptionid() == (prescription.getPrescriptionid()) && prescriptionRequest.getPrescriptionid() == (prescription.getPrescriptionid()) ){
+            if (prescriptionRequest.getPatientid() == (prescription.getPatientid()) ) {
                 return new PrescriptionResponse(prescription);
             }
         }

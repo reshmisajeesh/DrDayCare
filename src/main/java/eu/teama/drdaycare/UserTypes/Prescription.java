@@ -13,21 +13,14 @@ public class Prescription {
     private Integer patientid;
     private String prescription;
     private Integer prescriptionid;
-    private String name;
     private String Patient;
-    private int userRole;
-    private String email;
-    public int getpatientid(){
+
+    public Integer getPatientid(){
         return patientid;
     }
 
  public Integer getPrescriptionid(){
   return prescriptionid;
 }
-    public Integer getId() {
-        return id;
-    }
-    public String getEmail() {
-        return email;
-    }
+
 }

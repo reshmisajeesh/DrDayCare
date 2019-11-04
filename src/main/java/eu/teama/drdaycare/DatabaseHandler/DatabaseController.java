@@ -76,11 +76,11 @@ public class DatabaseController {
     }
 
     //Retrieving prescriptions from database, making use of built method of repository
-    public Iterable<Prescription> getPrescriptionById(int patientid){
-        logger.info("Searching for Prescription  with id: " + patientid);
-        Iterable<Prescription> prescriptions = PrescriptionRepository.findPrescriptionByPatientid(patientid);
-       return prescriptions;
-    }
+    //public Iterable<Prescription> getPrescriptionById(int patientid){
+      //  logger.info("Searching for Prescription  with id: " + patientid);
+        //Iterable<Prescription> prescriptions = PrescriptionRepository.findPrescriptionByPatientid(patientid);
+       //return prescriptions;
+    //}
     //Retrieving all prescriptions from database, making use of built method of repository
     public Iterable<Prescription> getAllPrescriptions(){
         logger.info("Searching for All Prescriptions ");

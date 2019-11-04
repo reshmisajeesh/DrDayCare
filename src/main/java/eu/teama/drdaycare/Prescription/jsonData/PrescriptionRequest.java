@@ -1,15 +1,15 @@
 package eu.teama.drdaycare.Prescription.jsonData;
 
 public class PrescriptionRequest {
-    private final Integer prescriptionid;
+    private final Integer patientid;
 
-    public PrescriptionRequest(Integer prescriptionid){
-        this.prescriptionid = prescriptionid;
+    public PrescriptionRequest(Integer patientid){
+        this.patientid = patientid;
 
     }
 
-    public int getPrescriptionid(){
-        return prescriptionid;
+    public int getPatientid(){
+        return patientid;
     }
 
     }
