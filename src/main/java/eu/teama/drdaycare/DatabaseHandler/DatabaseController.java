@@ -81,4 +81,10 @@ public class DatabaseController {
         Iterable<Prescription> prescriptions = PrescriptionRepository.findPrescriptionByPatientid(patientid);
        return prescriptions;
     }
+    //Retrieving all prescriptions from database, making use of built method of repository
+    public Iterable<Prescription> getAllPrescriptions(){
+        logger.info("Searching for All Prescriptions ");
+        Iterable<Prescription> prescriptions = PrescriptionRepository.findAll();
+        return prescriptions;
+    }
 }

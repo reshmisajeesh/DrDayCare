@@ -11,18 +11,19 @@ public class Prescription {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
     private Integer patientid;
-
+    private String prescription;
+    private Integer prescriptionid;
     private String name;
-
     private String Patient;
-
     private int userRole;
-
     private String email;
-
-    public Prescription(String patient) {
-        Patient = patient;
+    public int getpatientid(){
+        return patientid;
     }
+
+ public Integer getPrescriptionid(){
+  return prescriptionid;
+}
     public Integer getId() {
         return id;
     }
